@@ -1,4 +1,5 @@
 site_name: Erphise Blog
+site_url: https://erphise.com
 theme:
   name: material
   features:
