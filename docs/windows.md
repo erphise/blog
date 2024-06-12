@@ -1,5 +1,3 @@
-<div data-block-id="8DbjhJfR" data-callout-type="info" class="callout"><h4 data-block-id="eQfuLsVF">DO THIS FIRST</h4><p data-block-id="8nvdKmCQ" data-spacing="double">Download <a target="_blank" rel="noopener noreferrer nofollow" title="Win11 IoT Enterprise LTSC 2024" href="https://massgrave.dev/windows_ltsc_links#win11-iot-enterprise-ltsc-2024">Win11 IoT Enterprise LTSC 2024</a> ISO from MAS.</p></div>
-
 # Download / How to use it?
 
 ## Method 1 - PowerShell (Recommended)
