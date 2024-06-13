@@ -14,20 +14,24 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: default
+    - scheme: latte
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-      primary: indigo
-      accent: blue
     - scheme: slate
       toggle:
         icon: material/brightness-2
         name: Switch to light mode
-      primary: indigo
-      accent: blue
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Windows: windows.md
+  - Office: office.md
 
 markdown_extensions:
+  - abbr
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -36,6 +40,10 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.tilde
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark

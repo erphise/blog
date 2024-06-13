@@ -1,0 +1,25 @@
+/* Import Catppuccin palettes */
+@import url('https://unpkg.com/@catppuccin/palette/css/latte.css');
+@import url('https://unpkg.com/@catppuccin/palette/css/frappe.css');
+
+/* Apply Catppuccin Latte for light theme */
+[data-md-color-scheme="latte"] {
+  --md-primary-fg-color: var(--ctp-latte-text);
+  --md-primary-bg-color: var(--ctp-latte-base);
+  --md-primary-accent-color: var(--ctp-latte-red);
+  --md-default-fg-color: var(--ctp-latte-text);
+  --md-default-bg-color: var(--ctp-latte-base);
+  --md-default-accent-color: var(--ctp-latte-red);
+  /* Add other Latte variables as needed */
+}
+
+/* Apply Catppuccin Frappe for dark theme */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--ctp-frappe-text);
+  --md-primary-bg-color: var(--ctp-frappe-base);
+  --md-primary-accent-color: var(--ctp-frappe-red);
+  --md-default-fg-color: var(--ctp-frappe-text);
+  --md-default-bg-color: var(--ctp-frappe-base);
+  --md-default-accent-color: var(--ctp-frappe-red);
+  /* Add other Frappe variables as needed */
+}
